@@ -20,7 +20,7 @@ export default function OrderScreen(props){
     
     useEffect(()=>{ 
         const addRazorPayScript = async() => {
-            const{data} = await Axios.post('https://forgenix.herokuapp.com/api/config/razorpay');
+            const{data} = await Axios.post('/api/config/razorpay');
             console.log("data",data); 
             const script  = document.createElement('script');
             script.src = "https://checkout.razorpay.com/v1/checkout.js";
