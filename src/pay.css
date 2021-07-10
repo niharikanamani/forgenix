@@ -1,0 +1,14 @@
+.pay input{
+    display: inline;
+    width: 1%;
+}
+input,label{
+    display: inline-block;
+    margin-top:20px;
+}
+.payform{
+    text-align: center;
+}
+label{
+    padding-left:25px;
+}

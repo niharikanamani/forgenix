@@ -1,0 +1,27 @@
+.form > div{
+    margin: 1rem;
+}
+.form label{
+    margin:1rem 0;
+    display: block;
+}
+#signin input{
+    width:100%;
+    padding:7px;
+}
+#signin button{
+    display:inline-block;
+    background:#4caf50;
+    color:#fff;
+    padding:8px 30px;
+    margin:30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    border:#fff;
+}
+#signin button:hover{
+    background: grey;
+}
+#signin{
+    text-align: left;
+}
